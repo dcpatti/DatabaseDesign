@@ -62,9 +62,4 @@ ReFeReNCeS "departments" ("dept_no");
 ALTeR TABLe "dept_manager" Add CONSTRAINT "fk_dept_manager_emp_no	FK" FOReIGN KeY("emp_no	FK")
 ReFeReNCeS "employees" ("emp_no	PK");
 
-ALTeR TABLe "salaries" Add CONSTRAINT "fk_salaries_emp_no	FK" FOReIGN KeY("emp_no	FK")
-ReFeReNCeS "employees" ("emp_no	PK");
-
-ALTeR TABLe "titles" Add CONSTRAINT "fk_titles_emp_no" FOReIGN KeY("emp_no")
-ReFeReNCeS "employees" ("emp_no	PK");
 
